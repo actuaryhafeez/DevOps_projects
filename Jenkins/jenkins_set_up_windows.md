@@ -13,7 +13,5 @@ Set the JAVA_HOME Variable
  6. In the Variable Value field, enter your JDK -> C:\Progra~1\Java\jdk1.8.0_65
  7. Click OK and Apply Changes as prompted
  8. go to cmd windows key + R -> type ->
-
-    echo %JAVA_HOME%
-     
-    java --version
+ 9.     echo %JAVA_HOME% 
+ 10.    java --version
