@@ -1,4 +1,4 @@
-Download JDK8
+### Download JDK8/11
 
  * x86 Installer : https://download.oracle.com/otn/java/jdk/8u321-b07/df5ad55fdd604472a86a45a217032c7d/jdk-8u321-windows-i586.exe
  * x64 Installer : https://download.oracle.com/otn/java/jdk/8u321-b07/df5ad55fdd604472a86a45a217032c7d/jdk-8u321-windows-x64.exe
@@ -15,3 +15,26 @@ Set the JAVA_HOME Variable
  8. go to cmd windows key + R -> type ->
  9.     echo %JAVA_HOME% 
  10.     java --version
+
+### download jenkins 
+-> line: https://mirrors.tuna.tsinghua.edu.cn/jenkins/windows-stable/2.332.2/jenkins.msi
+
+-> run jenkins exe file 
+
+-> paste in browser: 
+
+    localhost:8080  
+    
+-> unlock jenkins
+
+-> isntall plugins 
+
+-> set:
+
+ * user: admin 
+ 
+ * passwd: admin
+ 
+ * name: XYZ
+ 
+ * email: abc@gmail.com
