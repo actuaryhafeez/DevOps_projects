@@ -5,7 +5,7 @@ Download JDK8
  
 
 Set the JAVA_HOME Variable
- 1. Locate your Java installation directory -> C:\Program Files\Java\jdk-11.0.13
+ 1. Locate your Java installation directory -> C:\Progra~1\Java\jdk1.8.0_65
  2. Windows 10 – Search for Environment Variables then select Edit the system environment variables
  3. Click the Environment Variables button.
  4. Under System Variables, click New.
@@ -14,4 +14,4 @@ Set the JAVA_HOME Variable
  7. Click OK and Apply Changes as prompted
  8. go to cmd windows key + R -> type ->
  9.     echo %JAVA_HOME% 
- 10.    java --version
+ 10.     java --version
