@@ -75,7 +75,7 @@ docker image tag $JOB_NAME:v1.$BUILD_ID hafeezabdul/$JOB_NAME:V1.$BUILD_ID
 docker image tag $JOB_NAME:v1.$BUILD_ID hafeezabdul/$JOB_NAME:latest
 docker image push hafeezabdul/$JOB_NAME:v1.$BUILD_ID
 docker image push hafeezabdul/$JOB_NAME:latest
-docker image rmi $JOB_NAME:v1.$BUILD_ID hafeezabdul/SJOB_NAME:V1.$BUILD_ID hafeezabdul/$JOB_NAME:latest
+docker image rmi $JOB_NAME:v1.$BUILD_ID hafeezabdul/$JOB_NAME:V1.$BUILD_ID hafeezabdul/$JOB_NAME:latest
 
 -> Post-build Actions: Send build artifacts over SSH: name ansible: exe command: ansible-playbook /sourcecode/docker.yml
 # save and build
