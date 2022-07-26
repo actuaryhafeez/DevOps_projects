@@ -21,7 +21,7 @@ spec:
 
 template:
   metadata: 
-  labels:
+   labels:
     app: kuber
   spec:
     containers:
