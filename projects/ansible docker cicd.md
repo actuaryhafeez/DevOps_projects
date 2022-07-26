@@ -70,7 +70,7 @@
  -> create new job -> name: repo name -> Free style -> Source Code Management: git: paste repo link: check branch name -> Build Triggers: GitHub hook trigger for GITScm polling -> Build: Send files or execute commands over SSH : choose jenkins serve : exec command : rsync -avh /var/lib/jenkins/workspace/docker-project/Dockerfile root@ansibleip:/opt/
 -> Post-build Actions: Send build artifacts over SSH: name ansible: exe command:
 cd /opt
-docker image build -t $JOB_NAME:v1.$BUILD_ID
+docker image build -t $JOB_NAME:v1.$BUILD_ID .
 docker image tag $JOB_NAME:v1.$BUILD_ID hafeezabdul/$JOB_NAME:V1.$BUILD_ID 
 docker image tag $JOB_NAME:v1.$BUILD_ID hafeezabdul/$JOB_NAME:latest
 docker image push hafeezabdul/$JOB_NAME:v1.$BUILD_ID
